@@ -60,8 +60,8 @@ El dataset es sintético, pero fue diseñado para representar un contexto indust
 Las variables principales son:
 
 - **Tipo de producto:** categoría del producto fabricado.
-- **Temperatura del aire:** temperatura del ambiente en kelvin.
-- **Temperatura del proceso:** temperatura del proceso industrial en kelvin.
+- **Temperatura del aire:** temperatura del ambiente en grados Celsius.
+- **Temperatura del proceso:** temperatura del proceso industrial en grados Celsius.
 - **Velocidad de rotación:** velocidad de la máquina en revoluciones por minuto.
 - **Torque:** fuerza de giro de la máquina en newton-metro.
 - **Desgaste de la herramienta:** tiempo de desgaste de la herramienta en minutos.
@@ -105,6 +105,12 @@ Durante la preparación de los datos se realizaron las siguientes actividades:
 
 Las variables que describen directamente tipos específicos de falla fueron revisadas para evitar fuga de información en el modelo.
 
+Las temperaturas originales estaban expresadas en Kelvin. Para facilitar la interpretación en Ingeniería Industrial, se crearon nuevas columnas en grados Celsius utilizando la fórmula:
+
+Temperatura en Celsius = Temperatura en Kelvin - 273.15 
+
+No se encontraron registros duplicados en el conjunto de datos.
+
 ---
 
 ## Modelo utilizado
@@ -128,13 +134,21 @@ Los resultados deben completarse después de ejecutar el cuaderno de Google Cola
 
 | Métrica | Resultado |
 |---|---:|
-| Exactitud | [Escribe el resultado] |
-| Precisión | [Escribe el resultado] |
-| Sensibilidad | [Escribe el resultado] |
-| F1-score | [Escribe el resultado] |
-| AUC | [Escribe el resultado] |
+| Exactitud | [0.979000] |
+| Precisión | [0.933333] |
+| Sensibilidad | [0.411765] |
+| F1-score | [0.571429] |
+| AUC | [0.964457] |
 
-La variable objetivo presentó [escribe aquí si existe o no un desbalance entre las clases]. Por esta razón, se analizaron varias métricas y no únicamente la exactitud.
+El modelo obtuvo una exactitud de **[97%]**, lo que representa la proporción general de predicciones correctas.
+
+La precisión fue de **[93%]**, indicando qué proporción de las máquinas clasificadas como defectuosas realmente presentó una falla.
+
+La sensibilidad fue de **[41%]**. Esta métrica es importante en mantenimiento predictivo porque indica la capacidad del modelo para detectar máquinas que realmente presentan una falla.
+
+El F1-score fue de **[57%]**, combinando la precisión y la sensibilidad en una sola medida.
+
+El AUC fue de **[96%]**, lo que permite evaluar la capacidad general del modelo para distinguir entre máquinas con y sin falla.
 
 Desde el punto de vista industrial, la sensibilidad es importante porque un falso negativo podría representar una falla no detectada y ocasionar una parada no planificada. Sin embargo, también deben considerarse los falsos positivos, ya que podrían generar inspecciones o mantenimientos innecesarios.
 
