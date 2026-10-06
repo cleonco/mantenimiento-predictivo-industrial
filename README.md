@@ -164,10 +164,6 @@ Desde el punto de vista industrial, la sensibilidad es importante porque un fals
 
 ![Matriz de confusión](resultados/matriz_confusion.png)
 
-### Matriz de correlación
-
-![Matriz de correlación](resultados/matriz_correlacion.png)
-
 ### Importancia de variables
 
 ![Importancia de variables](resultados/importancia_variables.png)
