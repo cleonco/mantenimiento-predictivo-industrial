@@ -194,7 +194,7 @@ Los resultados obtenidos deben considerarse como una aproximación académica y 
 
 ## Limitaciones
 
-El dataset utilizado es sintético y no representa necesariamente el comportamiento de una planta industrial específica.
+El dataset utilizado es un ejemplo y no representa necesariamente el comportamiento de una planta industrial específica.
 
 Además, el modelo no fue validado con información real de una empresa. Por esta razón, sus resultados no deben generalizarse automáticamente a otros procesos, máquinas o industrias.
 
