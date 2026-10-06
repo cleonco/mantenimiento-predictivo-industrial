@@ -198,7 +198,7 @@ El cuaderno con el código completo del proyecto se encuentra en la carpeta `not
 
 También puede abrirse directamente en Google Colab mediante el siguiente enlace:
 
-[ Abrir cuaderno en Google Colab ](PEGAR_AQUÍ_EL_ENLACE_DE_COLAB)
+[ Abrir cuaderno en Google Colab ](https://colab.research.google.com/drive/1skGYx9ni7Jb7Xp5VtmU8XHpwK2_HdWLc?usp=sharing)
 
 ---
 
