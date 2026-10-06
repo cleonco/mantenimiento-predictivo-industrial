@@ -158,15 +158,15 @@ Desde el punto de vista industrial, la sensibilidad es importante porque un fals
 
 ### Distribución de fallas
 
-![Distribución de fallas](resultados/distribucion_fallas.png)
+![Distribución de fallas](Resultados/distribucion_fallas.png)
 
 ### Matriz de confusión
 
-![Matriz de confusión](resultados/matriz_confusion.png)
+![Matriz de confusión](Resultados/matriz_confusion.png)
 
 ### Importancia de variables
 
-![Importancia de variables](resultados/importancia_variables.png)
+![Importancia de variables](Resultados/importancia_variables.png)
 
 ---
 
