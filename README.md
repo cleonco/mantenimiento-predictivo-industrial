@@ -226,7 +226,7 @@ Archivo:
 
 El video de presentación puede consultarse en el siguiente enlace:
 
-[ Ver video de presentación ]([PEGAR_AQUÍ_EL_ENLACE_DEL_VIDEO](https://universidadeaneduco.sharepoint.com/:v:/s/tareas860/IQA6WbjGkah5Q5c3T6WVsgPzAQlV3vrLonXHN0YdS6-OwAc?e=hXpWQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[ Ver video de presentación ](https://universidadeaneduco.sharepoint.com/:v:/s/tareas860/IQA6WbjGkah5Q5c3T6WVsgPzAQlV3vrLonXHN0YdS6-OwAc?e=hXpWQM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Duración del video:** [6:44]
 
